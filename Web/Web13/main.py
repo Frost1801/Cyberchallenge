@@ -9,6 +9,8 @@ r = rr.get(url)
 
 soup = BeautifulSoup(r.text, 'html.parser')
 
+print(r.text)
+
 highlighted = soup.find_all("span")
 
 for t in highlighted:
