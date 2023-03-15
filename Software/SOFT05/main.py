@@ -1,13 +1,9 @@
 
 bts = b'\x66\x00\x6c\x00\x61\x00\x67\x00\x7b\x00\x38\x00\x31\x00\x37\x00\x35\x00\x30\x00\x65\x00\x36\x00\x33\x00\x7d'
 
-flag = bts.decode("ascii")
+for i in range(0, len(bts), 2):
+    print(chr(bts[i]), end = "")
 
-parsed = ""
-
-for i in range (0, len(flag), 2):
-    parsed += flag[i]
-print(parsed)
 
 
 
