@@ -51,7 +51,7 @@ while True:
         start = time.time()
         response, error = inj.time(question)
         elapsed = time.time() - start
-        if elapsed > 2: # We have a match!
+        if elapsed > 1: # We have a match!
             result += c
             print(c, end='')
             break

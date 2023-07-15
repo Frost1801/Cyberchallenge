@@ -1,0 +1,58 @@
+        0010115d 31 c0           XOR        EAX,EAX
+        0010115f c6 85 f0        MOV        byte ptr [RBP + local_118],0x66
+                 fe ff ff 66
+        00101166 c6 85 f1        MOV        byte ptr [RBP + local_117],0x6c
+                 fe ff ff 6c
+        0010116d c6 85 f2        MOV        byte ptr [RBP + local_116],0x61
+                 fe ff ff 61
+        00101174 c6 85 f3        MOV        byte ptr [RBP + local_115],0x67
+                 fe ff ff 67
+        0010117b c6 85 f4        MOV        byte ptr [RBP + local_114],0x7b
+                 fe ff ff 7b
+        00101182 c6 85 f5        MOV        byte ptr [RBP + local_113],0x66
+                 fe ff ff 66
+        00101189 c6 85 f6        MOV        byte ptr [RBP + local_112],0x63
+                 fe ff ff 63
+        00101190 c6 85 f7        MOV        byte ptr [RBP + local_111],0x32
+                 fe ff ff 32
+        00101197 c6 85 f8        MOV        byte ptr [RBP + local_110],0x66
+                 fe ff ff 66
+        0010119e c6 85 f9        MOV        byte ptr [RBP + local_10f],0x34
+                 fe ff ff 34
+        001011a5 c6 85 fa        MOV        byte ptr [RBP + local_10e],0x34
+                 fe ff ff 34
+        001011ac c6 85 fb        MOV        byte ptr [RBP + local_10d],0x39
+                 fe ff ff 39
+        001011b3 c6 85 fc        MOV        byte ptr [RBP + local_10c],0x62
+                 fe ff ff 62
+        001011ba c6 85 fd        MOV        byte ptr [RBP + local_10b],0x7d
+                 fe ff ff 7d
+        0010115d 31 c0           XOR        EAX,EAX
+        0010115f c6 85 f0        MOV        byte ptr [RBP + local_118],0x66
+                 fe ff ff 66
+        00101166 c6 85 f1        MOV        byte ptr [RBP + local_117],0x6c
+                 fe ff ff 6c
+        0010116d c6 85 f2        MOV        byte ptr [RBP + local_116],0x61
+                 fe ff ff 61
+        00101174 c6 85 f3        MOV        byte ptr [RBP + local_115],0x67
+                 fe ff ff 67
+        0010117b c6 85 f4        MOV        byte ptr [RBP + local_114],0x7b
+                 fe ff ff 7b
+        00101182 c6 85 f5        MOV        byte ptr [RBP + local_113],0x66
+                 fe ff ff 66
+        00101189 c6 85 f6        MOV        byte ptr [RBP + local_112],0x63
+                 fe ff ff 63
+        00101190 c6 85 f7        MOV        byte ptr [RBP + local_111],0x32
+                 fe ff ff 32
+        00101197 c6 85 f8        MOV        byte ptr [RBP + local_110],0x66
+                 fe ff ff 66
+        0010119e c6 85 f9        MOV        byte ptr [RBP + local_10f],0x34
+                 fe ff ff 34
+        001011a5 c6 85 fa        MOV        byte ptr [RBP + local_10e],0x34
+                 fe ff ff 34
+        001011ac c6 85 fb        MOV        byte ptr [RBP + local_10d],0x39
+                 fe ff ff 39
+        001011b3 c6 85 fc        MOV        byte ptr [RBP + local_10c],0x62
+                 fe ff ff 62
+        001011ba c6 85 fd        MOV        byte ptr [RBP + local_10b],0x7d
+                 fe ff ff 7d

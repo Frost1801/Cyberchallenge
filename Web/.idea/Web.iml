@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/CR07" />
+      <excludeFolder url="file://$MODULE_DIR$/CR09" />
+      <excludeFolder url="file://$MODULE_DIR$/CR_01-scrambled" />
+      <excludeFolder url="file://$MODULE_DIR$/EuropeanCentralBank" />
+      <excludeFolder url="file://$MODULE_DIR$/NS_02-KEYBOARD" />
+      <excludeFolder url="file://$MODULE_DIR$/SOFT05" />
+      <excludeFolder url="file://$MODULE_DIR$/SOFT07" />
+      <excludeFolder url="file://$MODULE_DIR$/SOFT17" />
+      <excludeFolder url="file://$MODULE_DIR$/SOFT18" />
+      <excludeFolder url="file://$MODULE_DIR$/SOFT19" />
+      <excludeFolder url="file://$MODULE_DIR$/SOFT20" />
+      <excludeFolder url="file://$MODULE_DIR$/SOTF06" />
+      <excludeFolder url="file://$MODULE_DIR$/SS_0.05" />
+      <excludeFolder url="file://$MODULE_DIR$/Web02" />
+      <excludeFolder url="file://$MODULE_DIR$/Web03" />
+      <excludeFolder url="file://$MODULE_DIR$/Web04" />
+      <excludeFolder url="file://$MODULE_DIR$/Web05" />
+      <excludeFolder url="file://$MODULE_DIR$/Web19" />
+      <excludeFolder url="file://$MODULE_DIR$/Web20" />
+      <excludeFolder url="file://$MODULE_DIR$/test" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+</module>
